@@ -60,7 +60,7 @@
 
 @media screen and (min-width: 968px) {
   :root {
-    --biggest-font-size: 4rem;
+    --biggest-font-size: 3rem;
     --h1-font-size: 2.25rem;
     --h2-font-size: 1.75rem;
     --h3-font-size: 1.25rem;
@@ -174,7 +174,13 @@ input {
   text-transform: capitalize;
   margin-bottom: var(--mb-2);
 }
-
+.std {
+  font-size: var(--h3-font-size);
+  color: var(--title-color);
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: var(--mb-2);
+}
 .container {
   max-width: 968px;
   margin-left: var(--mb-1);
@@ -681,7 +687,7 @@ input {
 .sponsor__container {
   grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
   justify-items: center;
-  row-gap: 3.5rem;
+  row-gap: 5rem;
 }
 
 .sponsor__content:hover .sponsor__img {
